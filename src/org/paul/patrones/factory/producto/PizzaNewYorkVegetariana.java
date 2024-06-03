@@ -4,7 +4,7 @@ import org.paul.patrones.factory.PizzaProducto;
 
 public class PizzaNewYorkVegetariana extends PizzaProducto {
 
-    PizzaNewYorkVegetariana(){
+    public PizzaNewYorkVegetariana(){
         super();
         nombre = "Pizza vegetariana New York";
         masa = "Masa integral vegana";
